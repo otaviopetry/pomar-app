@@ -4,6 +4,9 @@ const { Router } = require('express');
 // Create express instance
 const routes = express.Router();
 
+// Quiz questions
+const Questions = require('./data/questions.json');
+
 // Fictional user data
 const User = require('./data/user.json');
 
@@ -17,6 +20,11 @@ const Featured = require('./data/featuredBooks.json');
 
 routes.get('/profile', (request, response) => {    
     response.json(User);
+})
+
+routes.get('/quiz/01', (request, response) => {
+    response.json(Questions);
+    console.log('Ariba')
 })
 
 routes.get('/sugestions', (request, response) => {

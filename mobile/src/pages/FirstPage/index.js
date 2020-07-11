@@ -13,12 +13,13 @@ import {
   Text,
   StatusBar,
   TextInput,
-  Image
+  Image,
+  TouchableOpacity
 } from 'react-native';
 
-import logoPomar from './assets/logo-projeto-pomar.png';
+import logoPomar from '../../assets/logo-projeto-pomar.png';
 
-const App = () => {
+export default function FirstPage ({ navigation }) {
   return (
     <>
         <View style={styles.container}>
@@ -31,7 +32,9 @@ const App = () => {
                 placeholder={'Seu código de acesso'}
             />            
             
-            <Text style={styles.loginText}>Entrar</Text>
+            <TouchableOpacity onPress={ () => navigation.navigate('Quiz') } style={styles.loginButton} >
+                <Text style={styles.loginText}>Entrar</Text>
+            </TouchableOpacity>
         </View>
     </>
   );
@@ -80,4 +83,3 @@ const styles = StyleSheet.create({
     }
 });
 
-export default App;
