@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "image_uri": "http://192.168.0.102:3333/uploads/sugestions/sugestion01.jpg"
+    },
+    {
+        "id": 2,
+        "image_uri": "http://192.168.0.102:3333/uploads/sugestions/sugestion02.png"
+    },
+    {
+        "id": 3,
+        "image_uri": "http://192.168.0.102:3333/uploads/sugestions/sugestion03.png"
+    },
+    {
+        "id": 4,
+        "image_uri": "http://192.168.0.102:3333/uploads/sugestions/sugestion04.png"
+    },
+    {
+        "id": 5,
+        "image_uri": "http://192.168.0.102:3333/uploads/sugestions/sugestion05.png"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "image_uri": "http://192.168.0.102:3333/uploads/featured/featured01.png"
+    },
+    {
+        "id": 2,
+        "image_uri": "http://192.168.0.102:3333/uploads/featured/featured02.png"
+    },
+    {
+        "id": 3,
+        "image_uri": "http://192.168.0.102:3333/uploads/featured/featured03.png"
+    },
+    {
+        "id": 4,
+        "image_uri": "http://192.168.0.102:3333/uploads/featured/featured04.png"
+    },
+    {
+        "id": 5,
+        "image_uri": "http://192.168.0.102:3333/uploads/featured/featured05.png"
+    }
+]
