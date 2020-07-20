@@ -22,9 +22,10 @@ routes.get('/profile', (request, response) => {
     response.json(User);
 })
 
-routes.get('/quiz/01', (request, response) => {
-    response.json(Questions);
-    console.log('Ariba')
+routes.get('/quiz/:id', (request, response) => {
+    const { id } = request.params;
+    
+    response.json(Questions[id-1]);
 })
 
 routes.get('/sugestions', (request, response) => {
